@@ -27,9 +27,9 @@ calculateCurrency("GEL")
 
 
 //N3
-BeforeUpdate = (UpperCaseText) => UpperCaseText.toLowerCase();
-const UpdatedString = BeforeUpdate("MY NAME IS JOHN");
-console.log(UpdatedString);
+UCText = (UpperCaseText) => UpperCaseText.toLowerCase();
+const LCText = UCText("MY NAME IS JOHN");
+console.log(LCText);
 
 //N4
 let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
