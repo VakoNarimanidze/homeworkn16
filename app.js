@@ -3,7 +3,7 @@ isEven = (x) => (x % 2 !== 0 ? true : false);
 console.log(isEven(12));
 
 //N2
-function calculateNameLength(currency) {
+function calculateCurrency(currency) {
   if (currency === "USD") {
     console.log("$");
     return "$";
