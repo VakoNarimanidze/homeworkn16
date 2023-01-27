@@ -8,7 +8,7 @@ function calculateCurrency(currency) {
     console.log("$");
     return "$";
   }
-  if (currency === "Euro") {
+  if (currency === "EURO") {
     console.log("€");
     return "€";
   }
@@ -17,7 +17,14 @@ function calculateCurrency(currency) {
     return "₾";
   };
  
-}
+};
+
+calculateCurrency("USD")
+calculateCurrency("EURO")
+calculateCurrency("GEL")
+
+
+
 
 //N3
 BeforeUpdate = (UpperCaseText) => UpperCaseText.toLowerCase();
